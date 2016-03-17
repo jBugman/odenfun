@@ -1,0 +1,9 @@
+package hello/main
+import fmt
+
+shout :: string -> string
+shout(s) = s ++ "!"
+
+result = shout("hello, world")
+
+main() = fmt.Println(result)
